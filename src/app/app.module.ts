@@ -9,6 +9,10 @@ import { MainComponent } from './main/main.component';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 import { FormsModule } from '@angular/forms';
+import { AddTaskComponent } from './tasks/add-task/add-task.component';
+import { EditTaskComponent } from './tasks/edit-task/edit-task.component';
+import { TaskListComponent } from './tasks/task-list/task-list.component';
+import { TaskDetailsComponent } from './tasks/task-details/task-details.component';
 FormsModule
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ FormsModule
     HeaderComponent,
     MainComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    AddTaskComponent,
+    EditTaskComponent,
+    TaskListComponent,
+    TaskDetailsComponent
   ],
   imports: [
     BrowserModule,

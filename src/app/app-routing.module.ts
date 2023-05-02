@@ -1,8 +1,9 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MainComponent } from './main/main.component';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
+import { AddTaskComponent } from './tasks/add-task/add-task.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
 {
   path: 'signup',
   component: SignupComponent
+},
+{
+  path: 'addtask',
+  component: AddTaskComponent
 },
 ];
 
